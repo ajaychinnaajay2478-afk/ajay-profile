@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay P. | ECE Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Animated Background -->
+    <canvas id="starCanvas"></canvas>
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">AJAY<span>.P</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact" class="nav-button">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section class="hero section" id="home">
+
+            <div class="hero-content reveal">
+
+                <p class="welcome">
+                    <span class="status-dot"></span>
+                    WELCOME TO MY DIGITAL WORLD
+                </p>
+
+                <h1>Hi, I'm <span class="gradient-text">Ajay P.</span></h1>
+
+                <h2>
+                    I'm a <span id="typingText"></span><span class="cursor">|</span>
+                </h2>
+
+                <p class="hero-description">
+                    An ECE student with a passion for technology,
+                    a love for cricket, and a curiosity to explore
+                    the future. Learning today, building tomorrow.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">
+                        Explore My World ↗
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Get In Touch
+                    </a>
+                </div>
+
+                <div class="quick-info">
+                    <div>
+                        <span class="info-icon">🎓</span>
+                        <span>First-Year ECE</span>
+                    </div>
+
+                    <div>
+                        <span class="info-icon">🏏</span>
+                        <span>Cricket Lover</span>
+                    </div>
+
+                    <div>
+                        <span class="info-icon">💻</span>
+                        <span>Tech Explorer</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Animated Profile Card -->
+            <div class="hero-visual reveal">
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="profile-card">
+                    <div class="card-top">
+                        <span class="card-label">MY PROFILE</span>
+                        <span class="card-dot"></span>
+                    </div>
+
+                    <div class="avatar">A<span>.</span></div>
+
+                    <h3>AJAY P.</h3>
+                    <p class="profile-role">ECE STUDENT</p>
+
+                    <div class="card-divider"></div>
+
+                    <div class="profile-detail">
+                        <span>🎓</span>
+                        <p>Engineering Student</p>
+                    </div>
+
+                    <div class="profile-detail">
+                        <span>🏏</span>
+                        <p>Cricket Enthusiast</p>
+                    </div>
+
+                    <div class="profile-detail">
+                        <span>⚡</span>
+                        <p>Future Innovator</p>
+                    </div>
+
+                    <div class="card-footer">
+                        <span>CURIOUS MIND.</span>
+                        <span>LIMITLESS FUTURE.</span>
+                    </div>
+                </div>
+
+                <div class="floating-badge badge-one">⚡ Innovation</div>
+                <div class="floating-badge badge-two">🏏 Cricket</div>
+                <div class="floating-badge badge-three">💻 Technology</div>
+
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <span class="scroll-arrow">↓</span>
+            </a>
+
+        </section>
+
+        <!-- About Section -->
+        <section class="section content-section" id="about">
+
+            <div class="section-heading reveal">
+                <p class="section-tag">01 / ABOUT ME</p>
+                <h2>A Little About <span class="gradient-text">Myself</span></h2>
+                <p>My journey, my interests, and my ambitions.</p>
+            </div>
+
+            <div class="about-card reveal">
+                <div class="about-symbol">👨‍💻</div>
+
+                <div>
+                    <h3>Hello, I'm Ajay!</h3>
+
+                    <p>
+                        I am Ajay P., a first-year Electronics and
+                        Communication Engineering (ECE) student at
+                        Mount Zion College of Engineering and Technology.
+                    </p>
+
+                    <p>
+                        I am interested in exploring new technologies,
+                        understanding how electronic systems work,
+                        and developing my technical skills.
+                        I enjoy discovering new ideas and learning
+                        something useful every day.
+                    </p>
+
+                    <p>
+                        Outside academics, I am a cricket lover.
+                        I believe that curiosity, consistency, and
+                        teamwork can help me achieve my goals.
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>Electronics</span>
+                        <span>Technology</span>
+                        <span>Learning</span>
+                        <span>Cricket</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Education Section -->
+        <section class="section content-section" id="education">
+
+            <div class="section-heading reveal">
+                <p class="section-tag">02 / EDUCATION</p>
+                <h2>My Learning <span class="gradient-text">Journey</span></h2>
+                <p>Building a strong foundation for the future.</p>
+            </div>
+
+            <div class="education-card reveal">
+
+                <div class="education-icon">🎓</div>
+
+                <div class="education-content">
+                    <span class="education-badge">CURRENTLY STUDYING</span>
+
+                    <h3>B.E. Electronics and Communication Engineering</h3>
+
+                    <h4>Mount Zion College of Engineering and Technology</h4>
+
+                    <p>
+                        First Year · Undergraduate Engineering
+                    </p>
+
+                    <p class="education-description">
+                        Exploring the fundamentals of electronics,
+                        electrical circuits, communication systems,
+                        and emerging technologies.
+                    </p>
+                </div>
+
+                <div class="education-decoration">ECE</div>
+
+            </div>
+
+        </section>
+
+        <!-- Interests Section -->
+        <section class="section content-section" id="interests">
+
+            <div class="section-heading reveal">
+                <p class="section-tag">03 / MY INTERESTS</p>
+                <h2>What Makes Me <span class="gradient-text">Me?</span></h2>
+                <p>Two things I really enjoy exploring.</p>
+            </div>
+
+            <div class="interest-grid">
+
+                <article class="interest-card cricket-card reveal">
+                    <div class="interest-number">01</div>
+                    <div class="interest-icon">🏏</div>
+
+                    <h3>Cricket Lover</h3>
+
+                    <p>
+                        Cricket is one of my favourite interests.
+                        I enjoy the excitement of the game, the
+                        spirit of teamwork, and the determination
+                        it takes to perform well.
+                    </p>
+
+                    <div class="interest-footer">
+                        <span>PASSION</span>
+                        <span>TEAMWORK</span>
+                        <span>ENERGY</span>
+                    </div>
+                </article>
+
+                <article class="interest-card tech-card reveal">
+                    <div class="interest-number">02</div>
+                    <div class="interest-icon">🚀</div>
+
+                    <h3>Tech Explorer</h3>
+
+                    <p>
+                        I love discovering new technologies and
+                        exploring how things work. My goal is to
+                        improve my technical knowledge, learn
+                        programming, and build creative projects.
+                    </p>
+
+                    <div class="interest-footer">
+                        <span>INNOVATION</span>
+                        <span>LEARNING</span>
+                        <span>CREATIVITY</span>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Goals Section -->
+        <section class="section content-section" id="goals">
+
+            <div class="section-heading reveal">
+                <p class="section-tag">04 / MY MINDSET</p>
+                <h2>Dream Big. <span class="gradient-text">Build Bigger.</span></h2>
+            </div>
+
+            <div class="goal-grid">
+
+                <div class="goal-card reveal">
+                    <span>01</span>
+                    <h3>Learn</h3>
+                    <p>Strengthen my knowledge of electronics and programming.</p>
+                </div>
+
+                <div class="goal-card reveal">
+                    <span>02</span>
+                    <h3>Explore</h3>
+                    <p>Discover emerging technologies and new ideas.</p>
+                </div>
+
+                <div class="goal-card reveal">
+                    <span>03</span>
+                    <h3>Create</h3>
+                    <p>Turn my knowledge into useful and creative projects.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section content-section contact-section" id="contact">
+
+            <div class="section-heading reveal">
+                <p class="section-tag">05 / CONTACT</p>
+                <h2>Let's Connect & <span class="gradient-text">Create!</span></h2>
+
+                <p>
+                    Interested in technology, engineering, or cricket?
+                    Let's connect and share ideas.
+                </p>
+            </div>
+
+            <div class="contact-card reveal">
+
+                <div class="contact-icon">✉️</div>
+
+                <h3>Have an idea?</h3>
+
+                <p>
+                    I'm always interested in learning, exploring,
+                    and discovering new opportunities.
+                </p>
+
+                <p class="contact-note">
+                    Add your email address or social media links here.
+                </p>
+
+                <a href="#home" class="btn btn-primary">
+                    Back to Top ↑
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#home" class="logo">AJAY<span>.P</span></a>
+
+        <p>
+            Designed with curiosity and creativity.
+            © <span id="year"></span> Ajay P.
+        </p>
+
+        <a href="#home" class="footer-top">↑</a>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
